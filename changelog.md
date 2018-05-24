@@ -4,6 +4,15 @@ layout: default
 
 # Changelog
 
+* * *
+### Build 20180524
+* * *
+
+#### project system/core/
+*  Adaway hosts 20180524
+
+#### project vendor/cm/
+*  Magisk to v16.4 and MagiskManager to 5.7.0
 
 * * *
 ### Build 20180521
