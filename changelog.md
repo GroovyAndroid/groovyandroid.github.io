@@ -4,6 +4,29 @@ layout: default
 
 # Changelog
 
+
+* * *
+### Build 20180604
+* * *
+
+#### project packages/apps/Snap/
+*  Snap: Remove leftover translations
+
+#### project packages/apps/AudioFX/
+*  AudioFX: Remove leftover translations
+
+#### project packages/apps/Bluetooth/
+*  Bluetooth: Remove a leftover test-string
+
+#### project packages/apps/Email/
+*  Email: Remove leftover translations
+
+#### project packages/apps/Exchange/
+*  Exchange: Remove leftover translation
+
+#### project packages/apps/Snap/
+*  Snap: Allow quickreader to work with secure device
+
 * * *
 ### Build 20180524
 * * *
