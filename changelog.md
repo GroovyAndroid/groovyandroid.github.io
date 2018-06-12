@@ -6,6 +6,74 @@ layout: default
 
 
 * * *
+### Build 20180612
+* * *
+
+#### project build/
+*  Bump security string to 2018-06-05
+
+#### project android/
+*  manifest: Track own external/libvorbis
+
+#### project frameworks/av/
+*  Add check preventing div0 issue
+*  Sanitize effect descriptors for AudioPolicyService binder calls.
+*  Init gain config to prevent uninit leak.
+
+#### project frameworks/base/
+*  Rework thumbnail cleanup
+*  ResStringPool: Fix security vulnerability
+
+#### project frameworks/opt/telephony/
+*  Fixed invalid pdu issue
+
+#### project vendor/cm/
+*  Update Lawnchair and Lawnfeed to v1.2.0.1878
+
+#### project frameworks/opt/telephony/
+*  Telephony: Fix "Keep preferred SMS Sim"
+
+#### project external/libavc/
+*  Encoder: Return error for odd resolution
+*  Decoder: Modify setting short term reference field flag
+
+#### project external/libhevc/
+*  Add limits check for depth hierarchy sps parameters
+*  Return error for invalid sps sub layers parameters
+*  Return error for invalid reorder parameter
+
+#### project external/libmpeg2/
+*  Adding Check For Number of Skip MBs
+
+#### project external/libvorbis/
+*  CVE-2018-5146: Prevent out-of-bounds write in codebook decoding.
+
+#### project external/libvpx/
+*  DO NOT MERGE | libvpx: cherry pick fix to OOB of mv_cost index.
+
+#### project external/sonivox/
+*  sonivox: fix hang caused by bad meta-event
+
+#### project packages/providers/MediaProvider/
+*  Rework thumbnail cleanup
+*  Fix deadlock in MediaProvider
+
+#### project packages/providers/UserDictionaryProvider/
+*  Check caller before accessing database
+
+#### project system/bt/
+*  DO NOT MERGE Drop LE CoC fragments when frame size is too big
+*  DO NOT MERGE Fix OOB read in process_l2cap_cmd
+*  [Backport] DO NOT MERGE Handle bad packet length in gatts_process_read_req
+*  DO NOT MERGE Add bounds check for BNEP_Write
+*  PAN: Always allocate in bta_pan_data_buf_ind_cback
+*  DO NOT MERGE Fix unexpected behavior in bta_dm_sdp_result
+
+#### project packages/apps/Snap/
+*  SnapdragonCamera: Panorama, replace border drawable
+*  Snap: remove unused shutter buttons
+
+* * *
 ### Build 20180604
 * * *
 
