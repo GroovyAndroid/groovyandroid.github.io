@@ -6,6 +6,88 @@ layout: default
 
 
 * * *
+### Build 20180807
+* * *
+
+#### project android/
+*  Track own external/bouncycastle
+
+#### project build/
+*  Security string to 2018-07-05
+
+#### project frameworks/av/
+*  Speed up id3v2 unsynchronization
+
+#### project frameworks/base/
+*  DO NOT MERGE Truncate newline and tab characters in BluetoothDevice name
+
+#### project frameworks/native/
+*  Increment when attempting to read protected Parcel Data
+*  Disallow reading object data from Parcels with non-object reads
+*  Don't pad before calling writeInPlace().
+
+#### project packages/apps/Jelly/
+*  Jelly: Show a Snackbar when removing an HistoryItem
+
+#### project system/bt/
+*  DO NOT MERGE SMP: Validate remote elliptic curve points
+
+#### project kernel/asus/moorefield/
+*  ramdisk: Replace init.power.mofd_v1.rc
+*  defconfig: Enable RCU_FAST_NO_HZ
+*  defconfig: Enable NTFS_RW
+*  defconfig: Enable exFAT
+*  fs: Add exFAT support
+*  bcmdhd: reduce wakelocks
+*  block: disable entropy contributions for nonrot devices
+*  block: Reserve only one queue tag for sync IO if only 3 tags are available
+*  readahead: make context readahead more conservative
+*  fs/buffer.c: increase the buffer-head per-CPU LRU size
+*  binfmt_elf.c: use get_random_int() to fix entropy depleting
+*  gfx: Hardcode default APM latency and clock speed
+*  gfx: Reduce APM latency to 3ms
+*  i2c: designware: enable pm runtime
+*  bt: bluetooth LPM driver wakelock adjustment
+*  alarmtimer: adjust the duration of __pm_wakeup_event
+*  mmc_ops: reduce mmc init time
+*  mmc: remove the qos request for faster IO
+*  intel_media: remove all pm_qos requests
+*  display: decrease DSR_COUNT in order to sleep more
+*  PM / autosleep: Use workqueue for user space wakeup sources garbage collector
+*  PM / suspend: Make cpuidle work in the "freeze" state
+*  cpuidle: don't disable cpuidle when entering suspend
+*  cpuidle,x86: increase forced cut-off for polling to 20us
+*  proc: Remove additional SafetyNet flags from /proc/cmdline
+*  proc: Remove verifiedbootstate flag from /proc/cmdline
+*  display: Don't restrict the brightness level
+*  android: binder: use GPF_HIGHUSER flag since binder is designed for userspace
+*  Makefile : Enable ccache
+*  sound: Fix uninitialized errors
+*  Remove '+' symbol from kernel version string
+*  defconfig: Disable LOCALVERSION_AUTO
+*  Automation
+*  Update .gitignore
+
+#### project android/
+*  Fork frameworks_native
+
+#### project external/bouncycastle/
+*  Fix probable prime confidence calculations.
+
+#### project external/libhevc/
+*  Return error for invalid st/lt sps parameters
+
+#### project packages/apps/Bluetooth/
+*  Make sure server response doesn't exceed maximum allowable length
+
+#### project system/bt/
+*  DO NOT MERGE Prevent stack overflow in btif_storage
+*  DO NOT MERGE: Check number of attributes before writing to a buffer
+*  DO NOT MERGE AVRC: Add bound check for AVRC_EVT_APP_SETTING_CHANGE
+*  Add bounds check to l2cble_process_sig_cmd L2CAP_CMD_DISC_REQ
+*  DO NOT MERGE Fix unexpected behavior in smp_sm_event
+
+* * *
 ### Build 20180612
 * * *
 
