@@ -6,6 +6,45 @@ layout: default
 
 
 * * *
+### Build 20180824
+* * *
+
+#### project android/
+*  fork cm-14.1 repos
+
+#### project build/
+*  Security string to 2018-08-05
+
+#### project frameworks/av/
+*  Fix possible out of bounds read
+
+#### project frameworks/base/
+*  Make safe label more safe
+*  ResStringPool: Prevenet boot loop from se fix
+*  Fix DynamicRefTable::load security bug
+
+#### project packages/apps/Messaging/
+*  Messaging ignores file URIs shared via intent
+*  Revert "Messaging: Request external storage permission before handling shared files"
+
+#### project packages/apps/PackageInstaller/
+*  RESTRICT AUTOMERGE: Always use safe labels
+
+#### project packages/apps/Settings/
+*  Merge translations of Bluetooth confirmation text
+*  DO NOT MERGE Fix unexpected behavior in Bluetooth pairing
+
+#### project packages/services/Telephony/
+*  Fix potential NPE in EmergencyCallbackModeExitDialog.
+*  DO NOT MERGE Revise security requirements for TelephonyManager#endCall.
+
+#### project system/bt/
+*  GATT: Use correct logging macro replacement
+
+#### project external/chromium-webview/
+*  Updated webviews to Chromium 67.0.3396.87
+
+* * *
 ### Build 20180807
 * * *
 
