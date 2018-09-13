@@ -54,9 +54,9 @@ layout: default
 
 | File                                            | md5sum          | Size          |
 |:------------------------------------------------|:------------------|:------------------|
-| [Magisk-v16.7.zip](https://sourceforge.net/projects/magisk/files/Magisk-v16.7.zip/download)           | 8286a8de92ab7970504d506245a215bd | 4.3 MB |
-| [Magisk-uninstaller-20180719.zip](https://sourceforge.net/projects/magisk/files/Magisk-uninstaller-20180719.zip/download)           | c12ed962809bf4b68792b75a13f0df15 | 2.4 MB |
-| [MagiskManager-v5.8.3.apk](https://sourceforge.net/projects/magisk/files/MagiskManager-v5.8.3.apk/download)           | c2813e8b46e0d6450fe6c07c48266c7a | 2.0 MB |
+| [Magisk-v17.1.zip](https://sourceforge.net/projects/magisk/files/Magisk-v17.1.zip/download)           | 0f1b25d88be4fd2ac5fb53e0584bcdc2 | 4.3 MB |
+| [Magisk-uninstaller-20180901.zip](https://sourceforge.net/projects/magisk/files/Magisk-uninstaller-20180901.zip/download)           | 1f699e6ccdaf3a4e03405fa4c3080bef | 2.4 MB |
+| [MagiskManager-v5.9.1.apk](https://sourceforge.net/projects/magisk/files/MagiskManager-v5.9.1.apk/download)           | cc0f8d59d64ee05e609588488761feac | 2.0 MB |
 | [VerifiedBootSigner-v8.zip](https://sourceforge.net/projects/magisk/files/VerifiedBootSigner-v8.zip/download)           | 340f5046a7a713bfbb3853ace2bca958 | 38.7 kB |
 
 VerifiedBootSigner has to be flashed right after Magisk. Otherwise devices will remain stuck in a bootloop.
