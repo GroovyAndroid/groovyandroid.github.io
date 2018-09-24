@@ -6,6 +6,55 @@ layout: default
 
 
 * * *
+### Build 20180924
+* * *
+
+#### project android/
+*  manifest: Track our own libxml2
+*  manifest: Track our own neven
+
+#### project build/
+*  Security string to 2018-09-05
+
+#### project frameworks/av/
+*  M3UParser: handle missing EXT-X-MEDIA URIs
+*  M3UParser: make url on demand
+
+#### project frameworks/base/
+*  Backport Prevent shortcut info package name spoofing
+*  Fix TrackInfo parcel write
+*  Resolve inconsistent parcel read in NanoAppFilter
+
+#### project system/bt/
+*  DO NOT MERGE HFP: Fix out of bound access in phone number processing
+*  Don't use Address after it was deleted
+*  HID Host: Check L2CAP packet data length
+*  Add packet length checks in l2cble_process_sig_cmd
+*  Fix OOB read in process_l2cap_cmd
+
+#### project system/core/
+*  Adaway hosts 20180913
+
+#### project vendor/cm/
+*  Update to Magisk v17.1 and MagiskManager v5.9.1
+
+#### project system/bt/
+*  DO NOT MERGE: SDP: Recalculate param_len after max_list_len
+*  SDP: return error on offset bigger than atribute length
+
+#### project external/neven/
+*  Make bound check proper in bbf_Scanner_addOutPos
+
+#### project external/libxml2/
+*  RESTRICT AUTOMERGE: Update libxml2 to 2.9.8
+
+#### project libcore/
+*  Fix hostname parsing in java.net.URLStreamHandler.
+
+#### project packages/providers/DownloadProvider/
+*  Remove "public" download feature.
+
+* * *
 ### Build 20180824
 * * *
 

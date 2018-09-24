@@ -14,9 +14,9 @@ layout: default
 
 | File                                            | md5sum          | Size          |
 |:------------------------------------------------|:------------------|:------------------|
+| [GA-N-v7.1.2-20180924-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20180924-Z00A-Release.zip/download)           | 90d99632c2f35a7bcac9d38b8b960fd8 | 483.0 MB |
 | [GA-N-v7.1.2-20180824-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20180824-Z00A-Release.zip/download)           | 59d3e47c7637c71a9c0d7d5665de4a9a | 483.0 MB |
 | [GA-N-v7.1.2-20180807-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20180807-Z00A-Release.zip/download)           | 6ed6bc85eeaf82142674f64e98481ce5 | 482.4 MB |
-| [GA-N-v7.1.2-20180612-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20180612-Z00A-Release.zip/download)           | d7b09f013323248ac128c827457166f5 | 482.3 MB |
 
 * * *
 
@@ -24,9 +24,9 @@ layout: default
 
 | File                                            | md5sum          | Size          |
 |:------------------------------------------------|:------------------|:------------------|
+| [GA-N-v7.1.2-20180924-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20180924-Z008-Release.zip/download)           | 1c86f5f208b6ee2514eed1efd7a628d9 | 473.8 MB |
 | [GA-N-v7.1.2-20180824-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20180824-Z008-Release.zip/download)           | 2f9d067591cc09e884d00a84fcc2560b | 473.8 MB |
 | [GA-N-v7.1.2-20180807-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20180807-Z008-Release.zip/download)           | 91c1a8d980e162f4b4333e008aaa2ca1 | 473.3 MB |
-| [GA-N-v7.1.2-20180612-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20180612-Z008-Release.zip/download)           | ffe57933e4395e1de0b0f49ff1931cbc | 473.2 MB |
 
 * * *
 
@@ -34,9 +34,9 @@ layout: default
 
 | File                                            | md5sum          | Size          |
 |:------------------------------------------------|:------------------|:------------------|
+| [GA-N-v7.1.2-20180924-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20180924-Z00D-Release.zip/download)           | 917448fc314fa28d005c82c433b0bda6 | 462.4 MB |
 | [GA-N-v7.1.2-20180824-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20180824-Z00D-Release.zip/download)           | 165dc63e713366f648ee40701266af50 | 462.4 MB |
 | [GA-N-v7.1.2-20180807-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20180807-Z00D-Release.zip/download)           | 7383052b5d92e7db488c45ac7b61a828 | 461.8 MB |
-| [GA-N-v7.1.2-20180612-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20180612-Z00D-Release.zip/download)           | 6332ae0007e5a74f0c4a97ded89a2ccf | 461.8 MB |
 
 * * *
 
@@ -44,9 +44,9 @@ layout: default
 
 | File                                            | md5sum          | Size          |
 |:------------------------------------------------|:------------------|:------------------|
+| [GA-N-v7.1.2-20180924-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20180924-h830-Release.zip/download)           | 531d17b5648e6cfaf230ad89e4c4d9e9 | 534.9 MB |
 | [GA-N-v7.1.2-20180824-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20180824-h830-Release.zip/download)           | 0857bcfd9b96094d5e702af715c944e3 | 534.9 MB |
 | [GA-N-v7.1.2-20180807-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20180807-h830-Release.zip/download)           | 1fcb5eec29c101db483c0cb3239c0d3c | 534.1 MB |
-| [GA-N-v7.1.2-20180612-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20180612-h830-Release.zip/download)           | 1cfd1643b8966975bb8b7ea9b77b1668 | 534.1 MB |
 
 * * *
 
