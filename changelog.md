@@ -6,6 +6,81 @@ layout: default
 
 
 * * *
+### Build 20181101
+* * *
+
+#### project android/
+*  manifest: Track our own chromium-libpac
+*  manifest: Track our own external/v8
+
+#### project build/
+*  Security string to 2018-10-05
+
+#### project external/skia/
+*  BACKPORT: Cherry-pick "begin cleanup of malloc porting layer"
+
+#### project frameworks/av/
+*  Fix information disclosure in mediadrmserver
+*  Fix information disclosure in mediadrmserver
+*  Check for overflow of crypto size
+
+#### project frameworks/base/
+*  Fix crash during cursor moving on BiDi text
+*  DO NOT MERGE. Persistable Uri grants still require permissions.
+*  Always create grant structures when persistable.
+*  Optimise the hit test algorithm
+*  Add support for search in DownloadManager.
+*  DO NOT MERGE. Extend SQLiteQueryBuilder for update and delete.
+*  DO NOT MERGE. Execute "strict" queries with extra parentheses.
+
+#### project packages/apps/Settings/
+*  BACKPORT: Disable changing lock when device is not provisioned.
+
+#### project packages/providers/DownloadProvider/
+*  DO NOT MERGE. All untrusted selections must go through builder.
+*  Enable search for Downloads.
+
+#### project bionic/
+*  zoneinfo: Update tzdata to 2018g
+
+#### project external/icu/
+*  icu: Update tzdata to 2018g
+
+#### project external/chromium-webview/
+*  Update webviews to Chromium 69.0.3497.109
+
+#### project android/
+*  Fork external/skia
+
+#### project bionic/
+*  zoneinfo: Update tzdata to 2018f
+
+#### project external/icu/
+*  icu: Update tzdata to 2018f
+
+#### project external/v8/
+*  Backport: Fix Object.entries/values with changing elements
+
+#### project external/chromium-libpac/
+*  Test for error in handling getters changing element kind.
+
+#### project external/libmpeg2/
+*  Adding check for min_width and min_height
+
+#### project system/bt/
+*  Checks the SMP length to fix OOB read
+*  Add packet length check in smp_proc_master_id
+*  DO NOT MERGE Fix OOB read before buffer length check
+*  Check packet length in bta_av_proc_meta_cmd
+*  Add missing AVRCP message length checks inside avrc_msg_cback
+*  Add packet length checks in mca_ccb_hdl_req
+*  Fix a wrong check in rfc_parse_data
+*  Add bound check for rfc_parse_data
+*  Check remaining frame length in rfc_process_mx_message
+*  Fix copy length calculation in sdp_copy_raw_data
+*  Fix OOB read in avrc_ctrl_pars_vendor_rsp
+
+* * *
 ### Build 20180924
 * * *
 
