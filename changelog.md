@@ -6,6 +6,37 @@ layout: default
 
 
 * * *
+### Build 20181112
+* * *
+
+#### project build/
+*  Security string to 2018-11-05
+
+#### project frameworks/av/
+*  MediaExtractor: stop rendering when an error occurs
+
+#### project frameworks/base/
+*  Verify number of Map entries written to Parcel
+*  RESTRICT AUTOMERGE: Hide overlay windows when requesting media projection permission.
+
+#### project system/bt/
+*  Check data length when parsing AVRCP vendor specific command responses
+*  AVRCP: unify Get{Element,Item}Attributes response.
+
+#### project libcore/
+*  ZoneInfo: Exclude boundary tz transitions
+
+#### project external/sonivox/
+*  sonivox: prevent rejection of good but large MIDI files
+*  sonivox: prevent infinite loop in OTA ringtones
+
+#### project external/tremolo/
+*  Fix OOB access in Tremolo
+
+#### project system/bt/
+*  Check AVRCP data length when parsing inside avrc_ctrl_pars_vendor_rsp()
+
+* * *
 ### Build 20181101
 * * *
 
