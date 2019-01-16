@@ -67,14 +67,4 @@ This package will install MM bootloader and TWRP 3.2.1.0
 
 * * *
 
-### Root the system using Magisk (optional)
-1.  Download **Magisk** and **Verified Boot Signer** from the [download area](http://groovyandroid.ga/downloads). Copy both packages to the device.
-1.  With the device powered off, hold **Volume Up + Power**. Once the device is on, release the **Power** button and keep holding the **Volume Up**. On the next screen (fastboot mode) use **Volume Down** to scroll to “RECOVERY” and then press **Power** to select.
-1.  Once in TWRP, select **Install.** Navigate to the folder where you saved **Magisk** and select it.
-1.  Follow the on-screen prompts to install the package.
-1.  Install **Verified Boot Signer** using the same method. This package is needed to avoid bootloop caused by Magisk.
-1.  Once installation has finished, return to the main menu, select **Reboot,** and then **System.**
-
-* * *
-
 [> Back to homepage](./)

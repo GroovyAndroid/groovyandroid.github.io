@@ -49,30 +49,7 @@ layout: default
 
 * * *
 
-## LG h830
-
-| File                                            | md5sum          | Size          |
-|:------------------------------------------------|:------------------|:------------------|
-| [GA-N-v7.1.2-20181112-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20181112-h830-Release.zip/download)           | a0b0c07e1cf16f1520c6d28713af2f1a | 536.6 MB |
-| [GA-N-v7.1.2-20181101-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20181101-h830-Release.zip/download)           | 698ccae4de9cb00a59a80ad51720bedb | 536.6 MB |
-| [GA-N-v7.1.2-20180924-h830-Release.zip](https://sourceforge.net/projects/groovyandroid/files/h830/GA-N-v7.1.2-20180924-h830-Release.zip/download)           | 531d17b5648e6cfaf230ad89e4c4d9e9 | 534.9 MB |
-
-* * *
-
-## Magisk
-
-| File                                            | md5sum          | Size          |
-|:------------------------------------------------|:------------------|:------------------|
-| [Magisk-v17.1.zip](https://sourceforge.net/projects/magisk/files/Magisk-v17.1.zip/download)           | 0f1b25d88be4fd2ac5fb53e0584bcdc2 | 4.3 MB |
-| [Magisk-uninstaller-20180901.zip](https://sourceforge.net/projects/magisk/files/Magisk-uninstaller-20180901.zip/download)           | 1f699e6ccdaf3a4e03405fa4c3080bef | 2.4 MB |
-| [MagiskManager-v5.9.1.apk](https://sourceforge.net/projects/magisk/files/MagiskManager-v5.9.1.apk/download)           | cc0f8d59d64ee05e609588488761feac | 2.0 MB |
-| [VerifiedBootSigner-v8.zip](https://sourceforge.net/projects/magisk/files/VerifiedBootSigner-v8.zip/download)           | 340f5046a7a713bfbb3853ace2bca958 | 38.7 kB |
-
-VerifiedBootSigner has to be flashed right after Magisk. Otherwise devices will remain stuck in a bootloop.
-
-* * *
-
-**ROM OS Version:** 7.1.2 Nougat. **ROM Kernel:** Linux 3.10. **ROM Firmware required:** Stock Asus 5 (L), open bootloader (of course) and TWRP 3.2.1+. **Based on:** LineageOS 14.1 and Resurrection Remix N
+**ROM OS Version:** 7.1.2 Nougat. **Based on:** LineageOS 14.1 and Resurrection Remix N
 
 * * *
 
