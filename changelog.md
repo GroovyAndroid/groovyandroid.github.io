@@ -6,6 +6,95 @@ layout: default
 
 
 * * *
+### Build 20190123
+* * *
+
+#### project build/
+*  Bump Security Patch Level to 2019-01-05
+
+#### project external/libnfc-nci/
+*  Prevent Out of bounds read in llcp_dlc
+*  Prevent OOB error in nfc_ncif_proc_get_routing()
+*  Prevent Out of bounds read/write in nfc_ncif_set_config_status
+*  Improve AGF PDU integrity check to prevent OOB error
+
+#### project external/wpa_supplicant_8/
+*  WNM: Fix WNM-Sleep Mode Request bounds checking
+
+#### project packages/apps/Contacts/
+*  Patch URI vulnerability in contact photo editing
+
+#### project packages/apps/ManagedProvisioning/
+*  DO NOT MERGE: Don't Disable Pkg Verifier When Provisioning
+
+#### project system/bt/
+*  Fix possible OOB when AVDT data channel recive ACL data
+*  MCAP: Check response length in mca_ccb_hdl_rsp
+*  HH: Check parameter length in bta_hh_ctrl_dat_act
+*  SDP: Check p_end in save_attr_seq and add_attr
+*  HFP: Check AT command buffer boundary during parsing
+
+#### project android/
+*  Track our own Contacts app
+
+#### project android/
+*  Track own update-engine
+
+#### project build/
+*  Bump Security Patch Level to 2018-12-05
+
+#### project frameworks/av/
+*  CTS error while media dump()
+
+#### project frameworks/base/
+*  RESTRICT AUTOMERGE: Recover shady content:// paths.
+*  Pass userId through to singleton ContentProviders
+*  Changing SUPL_ES=1 for SUPL end point control
+
+#### project external/v8/
+*  Remove unrecognized compiler flag
+*  Merge tag 'android-8.1.0_r52'
+
+#### project external/v8/
+*  Revert "Backport: Fix Object.entries/values with changing elements"
+
+#### project system/update_engine/
+*  Check metadata size in payload.
+
+#### project external/aac/
+*  Prevent out of bounds accesses in lppTransposer()
+
+#### project external/libhevc/
+*  Add limits check for the CTB position in a frame
+
+#### project external/libnfc-nci/
+*  Prevent OOB error for T2T read/writes
+
+#### project external/libvpx/
+*  libwebm: Cherrypick 5a41830 from upstream
+
+#### project system/bt/
+*  Fix possible OOB read
+*  DO NOT MERGE - Check SDU lower bound before allocate p_data
+
+#### project system/vold/
+*  Fix signedness mismatch and integer underflow
+
+#### project bootable/recovery/
+*  Fix making adb use a custom prop for adb root
+*  Make adb use a custom prop for adb root
+
+#### project packages/apps/TvSettings/
+*  Make adb use a custom prop for adb root
+
+#### project external/aac/
+*  Add sampling rate sanity check
+*  Break audio element loop in case element_count becomes too large.
+
+#### project external/aac/
+*  Prevent bit buffer counter overflow.
+
+* * *
 ### Build 20181112
 * * *
 
