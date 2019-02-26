@@ -6,6 +6,45 @@ layout: default
 
 
 * * *
+### Build 20190225
+* * *
+
+#### project android/
+*  Drop legacy OpenCV from manifest
+
+#### project build/
+*  Bump Security Patch Level to 2019-02-05
+
+#### project external/skia/
+*  RESTRICT AUTOMERGE: Add SkAndroidFrameworkUtils::SafetyNetLog
+*  RESTRICT AUTOMERGE: Fix heap buffer overflow
+
+#### project packages/apps/Contacts/
+*  Patch URI vulnerability in contact photo editing
+
+#### project external/wpa_supplicant_8/
+*  Use BoringSSL to get random bytes
+
+#### project system/bt/
+*  Fix potential usage of freed memory in btif_hl_proc_sdp_query_cfm
+*  Fix buffer overflow in btif_dm_data_copy
+
+#### project external/chromium-webview/
+*  Update x86/x64 Chromium Webviews to 71.0.3578.99
+
+#### project hardware/broadcom/libbt/
+*  libbt: Align Samsung CID strings to those created by macloader
+
+#### project packages/apps/Email/
+*  AOSP/Email - Second part of the Security Vulnerability fix -   Email App: Malicious app is able to compose message with hidden   attachments and bypass attachments path checks attaching private files   from /data/data/com.android.email/*
+
+#### project packages/apps/UnifiedEmail/
+*  AOSP/Email - Fixed - Security Vulnerability - Email App: Malicious app is able to compose message with hidden attachments and bypass attachments path checks attaching private files from /data/data/com.android.email/*
+
+#### project system/bt/
+*  Fix possible OOB when AVDT data channel recive ACL data
+
+* * *
 ### Build 20190123
 * * *
 
