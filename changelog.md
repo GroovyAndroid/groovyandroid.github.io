@@ -6,6 +6,50 @@ layout: default
 
 
 * * *
+### Build 20190311
+* * *
+
+#### project build/
+*  Bump Security Patch Level to 2019-03-01
+
+#### project frameworks/base/
+*  Select only preinstaflled Spell Checker Services
+*  RESTRICT AUTOMERGE Do not linkify text with RLO/LRO characters.
+
+#### project frameworks/native/
+*  Sanitize InputMessage before sending
+
+#### project bootable/recovery/
+*  DO NOT MERGE: Initialize the ZipArchive to zero before parsing
+
+#### project external/libavc/
+*  decoder: Signal IVD_RES_CHANGED error for change in crop params
+
+#### project external/libhevc/
+*  Decoder: Signal IVD_RES_CHANGED error for change in crop params
+
+#### project external/libnfc-nci/
+*  Prevent integer underflow in rw_t2t_handle_tlv_detect_rsp()
+*  Prevent Out of bounds read in ce_t4t.cc
+*  Prevent OOB read in rw_t3t_act_handle_ndef_detect_rsp()
+*  Prevent Out of bounds write in rw_t3t_handle_get_sc_poll_rsp()
+*  Fix heap overflow in NFA_SendRawFrame()
+*  Prevent Integer Overflow in rw_t3t_act_handle_check_rsp()
+*  Prevent OOB read in rw_t3t_update_block()
+*  Prevent Out of bound error in phNxpNciHal_process_ext_rsp
+*  Prevent Out of bound error in llcp_dlc_proc_rr_rnr_pdu()
+*  Prevent Out of bounds read in llcp_util
+
+#### project external/sqlite/
+*  RESTRICT AUTOMERGE: Apply security patch to sqlite 3.9.
+
+#### project system/bt/
+*  DO NOT MERGE A security fix to check buffer length in l2c_lcc_proc_pdu
+
+#### project hardware/ti/omap4/
+*  libpower: update interactive governor params for performance
+
+* * *
 ### Build 20190225
 * * *
 
