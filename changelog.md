@@ -6,11 +6,41 @@ layout: default
 
 
 * * *
+### Build 20190520
+* * *
+
+#### project build/
+*  Bump Security String to 2019-05-05
+
+#### project frameworks/av/
+*  Reserve enough space for RTSP CSD
+
+#### project frameworks/base/
+*  DO NOT MERGE - SUPL ES Extension - Safer Init and Not After Boot
+
+#### project packages/apps/Settings/
+*  Do not allow draw on top for default sms picker.
+
+#### project external/v8/
+*  Fix Integer Overflow in libpac
+*  Fix type confusion in libpac
+*  Fix OOB Access in libpac
+*  Fix OOB read in libpac ast-numbering.cc
+*  Fix type confusion in libpac
+
+#### project external/wpa_supplicant_8/
+*  [wpa_supplicant] Fix security vulnerability wpa_supplicant/wnm_sta.c:376
+
+#### project packages/apps/SetupWizard/
+*  SUW: Don't make google suw use material_light
+*  SetupWizard: Update wizard script to fix flow
+
+* * *
 ### Build 20190409
 * * *
 
 #### project build/
- ▪ 81ced9524 Bump Security String to 2019-04-05
+*  Bump Security String to 2019-04-05
 
 #### project external/libnfc-nci/
 *  Prevent OOB error in rw_i93_sm_update_ndef()
