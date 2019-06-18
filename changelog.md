@@ -6,6 +6,34 @@ layout: default
 
 
 * * *
+### Build 20190618
+* * *
+
+#### project build/
+*  Bump Security String to 2019-06-05
+
+#### project frameworks/av/
+*  AudioFlinger: Prevent multiple effect chains with same sessionId
+*  audio: ensure effect chain with specific session id is unique
+*  NuPlayerCCDecoder: fix memory OOB
+
+#### project frameworks/base/
+*  Adding SUPL NI Emergency Extension Time
+*  Add cross user permission check - areNotificationsEnabledForPackage
+*  Limit IsSeparateProfileChallengeAllowed to system callers
+*  Permission Check For DPM.getPermittedAccessibilityServices
+*  Added missing permission check to isPackageDeviceAdminOnAnyUser.
+
+#### project system/bt/
+*  DO NOT MERGE Don't persist bonds using sample LTK
+
+#### project external/libnfc-nci/
+*  Fix heap overflow in nfa_rw_store_ndef_rx_buf
+
+#### project external/v8/
+*  Fix type confusion in libpac
+
+* * *
 ### Build 20190520
 * * *
 
