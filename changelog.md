@@ -6,6 +6,36 @@ layout: default
 
 
 * * *
+### Build 20190710
+* * *
+
+#### project android/
+*  Track our own android_external_sfntly
+
+#### project build/
+*  Bump Security String to 2019-07-05
+
+#### project frameworks/av/
+*  Remove unused AVIExtractor source
+
+#### project system/bt/
+*  Fix potential OOB read in sdpu_get_len_from_type
+
+#### project external/libhevc/
+*  Add few more checks for invalid parameters in sps
+*  Add bounds check for tile dimensions
+*  Add missing return check for short_term_ref_pic_set()
+
+#### project external/sfntly/
+*  Fix uninitialized value in sfntly
+
+#### project packages/providers/TelephonyProvider/
+*  Check access to user and password fields in APN db
+
+#### project external/chromium-webview/
+*  Update Chromium Webview to 75.0.3770.101
+
+* * *
 ### Build 20190618
 * * *
 
