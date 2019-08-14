@@ -6,6 +6,105 @@ layout: default
 
 
 * * *
+### Build 20190814
+* * *
+
+#### project android/
+*  Track our own versions of art and Telecomm
+
+#### project art/
+*  Use conservative permissions when creating files in ART
+
+#### project build/
+*  Bump Security String to 2019-08-05
+
+#### project frameworks/av/
+*  AMR WB encoder: prevent OOB write in ACELP_4t64_fx
+*  httplive: detect oom if playlist is infinite
+*  Fix overflow/dos in 3gg text description parsing
+*  DO NOT MERGE: audiopolicy: Remove raw pointer references to AudioMix
+
+#### project frameworks/base/
+*  Protect VPN dialogs against overlay.
+*  Make Lock task default behaviour consistent with Settings.
+
+#### project frameworks/native/
+*  libbinder: readCString: no ubsan sub-overflow
+*  libbinder: Status: check dataPosition sets.
+
+#### project packages/apps/Nfc/
+*  Prevent OOB Read in Mfc_Transceive
+*  Prevent OOB write in Mfc_Transceive
+*  Prevent OOB write in phFriNfc_ExtnsTransceive
+
+#### project packages/apps/Settings/
+*  Make ScreenPinningSettings behaviour consistent with lock tasks.
+*  Do not allow draw on top for App notification settings
+
+#### project packages/services/Telecomm/
+*  Add flag to default dialer change dialog
+
+#### project hardware/qcom/audio-caf/msm8916/
+*  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy
+
+#### project hardware/qcom/audio-caf/msm8952/
+*  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy
+
+#### project hardware/qcom/audio-caf/msm8994/
+*  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy
+
+#### project hardware/qcom/audio-caf/msm8996/
+*  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy
+
+#### project hardware/qcom/audio-caf/msm8998/
+*  policy_hal: Adapt to AudioMix API changes in f/av audiopolicy
+
+#### project external/chromium-libpac/
+*  Disable optimizing compiler for pac file
+
+#### project external/libavc/
+*  Decoder: Delete node from st if lt and st point to same
+
+#### project external/libhevc/
+*  Add push-pop for Neon D8-D15 registers
+
+#### project external/libvpx/
+*  Fixes a double free in ContentEncoding
+*  Check there is only one settings per ContentCompression
+
+#### project system/bt/
+*  DO NOT MERGE Fix for Bluetooth connection being dropped after HCI Read Encryption Key Size
+*  DO NOT MERGE Send HCI Read Encryption Key properly
+*  DO NOT MERGE Drop Bluetooth connection with weak encryption key
+
+#### project packages/inputmethods/LatinIME/
+*  Add support for Georgian spell checking
+*  Set proper keyboard for Georgian script
+*  Add support for Bulgarian spell checking
+*  Add new type for Bulgarian script
+*  Add support for Portuguese spell checking
+*  Add support for Hebrew spell checking
+*  Add support for Croatian spell checking
+*  Add support for Czech spell checking
+*  Add support for Polish spell checking
+
+#### project packages/inputmethods/LatinIME/
+*  Add support for Ukrainian spell checking
+
+#### project external/nano/
+*  nano: Zero entire struct termios
+*  nano: don't spam warnings as errors
+*  nano: Zero entire struct sigaction struct
+*  nano: fix another implicit declaration of time()
+*  Adjust config.h for Nougat:
+*  nano: Update config.h for 4.3
+*  nano: Regenerate config.h
+*  Merge tag 'v4.3' into lineage-15.1_v4.3-merge
+
+#### project external/vim/
+*  Adjust src/auto/config,h for Nougat
+
+* * *
 ### Build 20190710
 * * *
 
