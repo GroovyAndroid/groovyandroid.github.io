@@ -6,6 +6,39 @@ layout: default
 
 
 * * *
+### Build 20190923
+* * *
+
+#### project android/
+*  manifest: Track our own gatekeeper
+
+#### project build/
+*  Bump Security String to 2019-09-05
+
+#### project frameworks/base/
+*  Fix Layout.primaryIsTrailingPreviousAllLineOffsets
+*  HidProfile: sync isPreferred() with HidHostService
+*  Clear the Parcel before writing an exception during a transaction
+
+#### project frameworks/native/
+*  Fix race between SensorManager ctor and callback
+*  Free mObjects if no objects left to realloc on resize
+
+#### project system/core/
+*  Fix a memory leak in gatekeeper.
+
+#### project external/libnfc-nci/
+*  Prevent OOB read in rw_t4t.cc
+*  Prevent integer overflow in NDEF_MsgValidate
+
+#### project packages/apps/Email/
+*  AOSP/Email - Create an empty Bundle if originalExtras doesn't exit. Backporting the fix to fix NullPointerException.
+*  AOSP/Email - bug fix: do not allow composing message with hidden private data attachments.
+
+#### project packages/apps/UnifiedEmail/
+*  AOSP/UnifiedEmail - bug fix to composing messages.
+
+* * *
 ### Build 20190814
 * * *
 
