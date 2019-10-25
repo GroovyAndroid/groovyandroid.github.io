@@ -4,6 +4,28 @@ layout: default
 
 # Changelog
 
+* * *
+### 10/25/2019
+* * *
+
+#### project build/
+*  Bump Security String to 2019-10-05
+
+#### project frameworks/av/
+*  Fix OOB access in mpeg4/h263 decoder
+*  m4v_h263: add a test for invalid/negative value
+
+#### project frameworks/base/
+*  [RESTRICT AUTOMERGE] Pass correct realCallingUid to startActivity() from startActivityInPackage
+
+#### project bionic/
+*  zoneinfo: Update tzdata to 2019c
+
+#### project external/icu/
+*  icu: Update tzdata to 2019c
+
+#### project packages/apps/Nfc/
+*  [DO NOT MERGE]Prevent length underflow in NfcTag.cpp
 
 * * *
 ### Build 20190923
