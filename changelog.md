@@ -5,7 +5,70 @@ layout: default
 # Changelog
 
 * * *
-### 10/25/2019
+### 20191115
+* * *
+
+#### project android/
+*  manifest: Track own libcxx and libjpeg-turbo
+
+#### project build/
+*  Bump Security String to 2019-11-05
+
+#### project frameworks/base/
+*  RESTRICT AUTOMERGE Strict SQLiteQueryBuilder needs to be stricter.
+*  Set default phonebook access to ACCESS_REJECTED when user didn't choose one
+*  RESTRICT AUTOMERGE Enable stricter SQLiteQueryBuilder options.
+*  Add MANAGED_PROVISIONING_DPC_DOWNLOADED (nyc).
+
+#### project packages/providers/TvProvider/
+*  Add SQL tokenizer and disallow subqueries in selection
+
+#### project external/libjpeg-turbo/
+*  Prevent integer overflows when handling large images
+
+#### project external/libcxx/
+*  Add __undef_macros and LIBCPP_PUSH/POP_MACROS
+*  DO NOT MERGE: Fix bug in random.
+*  DO NOT MERGE: [libc++] Move __clamp_to_integral to <cmath>, and harden against min()/max() macros
+
+#### project external/libcxx/
+*  DO NOT MERGE: [libc++] Add `__truncating_cast` for safely casting float types to integers
+
+#### project external/libcxx/
+*  Make rehash(0) work with ubsan's unsigned-integer-overflow.
+
+#### project external/chromium-libpac/
+*  Fix use-after-free in proxy resolver
+
+#### project external/libnfc-nci/
+*  Add boundary check in nfa_hci_handle_admin_gate_rsp
+*  Prevent OOB in rw_i93.cc
+
+#### project external/sqlite/
+*  sqlite3_android.cpp: disable _TOKENIZE
+
+#### project external/v8/
+*  Fix OOB read in v8's Promise handling
+*  Fix OOB Access
+
+#### project packages/apps/Bluetooth/
+*  DO NOT MERGE: AdapterService: Check the PIN code length before using
+
+#### project packages/apps/ManagedProvisioning/
+*  Set MANAGED_PROVISIONING_DPC_DOWNLOADED when downloading DPC (oc).
+
+#### project packages/providers/DownloadProvider/
+*  RESTRICT AUTOMERGE Enable stricter SQLiteQueryBuilder options.
+
+#### project packages/providers/TelephonyProvider/
+*  resolve merge conflicts of 72b6ac9075afff486072049416d38b44c046c9f2 to pi-dev
+*  Examine sort field for sensitive fields
+
+#### project system/bt/
+*  DO NOT MERGE Store BLE keys using the address from the ble_auth_cmpl_evt
+
+* * *
+### 20191025
 * * *
 
 #### project build/
