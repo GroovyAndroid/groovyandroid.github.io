@@ -5,6 +5,64 @@ layout: default
 # Changelog
 
 * * *
+### 20200502
+* * *
+
+#### project build/
+*  Bump Security String to 2020-04-05
+
+#### project frameworks/base/
+*  Fix potential double destroy of AssetManager
+*  Revoke 'always' web handler status when not autoverifying
+
+#### project frameworks/base/
+*  Fixes NPE when preparing app data during init
+*  Handles null outInfo in deleteSystemPackageLI
+*  Fix security problem on PermissionMonitor#hasPermission
+*  RESTRICT AUTOMERGE Make toasts non-clickable
+*  DO NOT MERGE back porting for fixing sysui direct reply
+*  DO NOT MERGE: Disable SpellChecker in secondary user's direct reply
+
+#### project packages/apps/Settings/
+*  Prevent accounts page directly opening in screen pinning mode
+
+#### project build/
+*  Bump Security String to 2020-03-05
+*  Bump Security String to 2020-02-05
+
+#### project frameworks/native/
+*  Don't leak input events to dumpsys on user builds
+*  Resize object capacity when shrinking Parcel
+
+#### xternal/libnfc-nci/
+*  OOB write in rw_t2t_ndef.cc
+*  OOB write in rw_t2t_handle_tlv_detect_rsp
+
+#### project external/libnfc-nci/
+*  Prevent information disclosure in rw_i93.c
+
+#### project external/libavc/
+*  decoder: Fix minimum poc calculation check while adding to display
+
+#### project external/libvpx/
+*  vp8_decode_frame: fix oob read on truncated key frame -- DO NOT MERGE
+
+#### project packages/providers/TelephonyProvider/
+*  DO NOT MERGE Check permissions for URL_SIMINFO
+
+#### project external/sqlite/
+*  Fix a buffer overread that could occur when running fts5 prefix queries inside a transaction.
+*  Disable the undocumented rtreenode() SQL function that is only used for testing, except when doing a build that is specifically intended for testing.
+
+#### project packages/apps/CertInstaller/
+*  KeyChain: Do not allow hiding Cert Install dialog
+
+#### project system/bt/
+*  SDP: add return after SDP disconnection
+*  Fix potential OOB write in btm_read_remote_ext_features_complete
+*  GAP: Correct the continuous pkt length in l2cap
+
+* * *
 ### 20200203
 * * *
 
