@@ -5,6 +5,27 @@ layout: default
 # Changelog
 
 * * *
+### 20200606
+* * *
+
+#### android/
+*  manifest: Track our own libexif
+
+#### build/
+*  Bump Security String to 2020-05-05
+
+#### frameworks/av/
+*  BnCrypto: fix use-before-init in CREATE_PLUGIN
+*  [DO NOT MERGE] Fix uninitialized data in IHDCP decrypt
+
+#### frameworks/base/
+*  RESTRICT AUTOMERGE Use consistent calling uid and package in navigateUpTo
+*  RESTRICT AUTOMERGE Create separated tasks for different apps from startActivities
+
+#### packages/apps/Settings/
+*  RESTRICT AUTOMERGE Allow LockScreenPattern to be launched in the pinning screen
+
+* * *
 ### 20200502
 * * *
 
