@@ -5,6 +5,16 @@ layout: default
 # Changelog
 
 * * *
+### 20200610
+* * *
+
+#### project build/
+*  Bump Security String to 2020-06-05
+
+#### project frameworks/base/
+*  Verify all possible hosts that match web nav
+
+* * *
 ### 20200606
 * * *
 
