@@ -5,6 +5,25 @@ layout: default
 # Changelog
 
 * * *
+### 20200729
+* * *
+
+#### project build/
+*  Bump Security String to 2020-07-05
+
+#### project android/
+*  manifest: Track our own dng_sdk
+
+#### project external/chromium-libpac/
+*  Cherry-pick "Refactor Regexp.prototype"
+
+#### project external/dng_sdk/
+*  Targeted minimal fix for security issue in CVE-2020-9589.
+
+#### project external/v8/
+*  [RESTRICT AUTOMERGE] Cherry-pick "Refactor Regexp.prototype"
+
+* * *
 ### 20200610
 * * *
 
