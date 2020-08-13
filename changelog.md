@@ -5,6 +5,22 @@ layout: default
 # Changelog
 
 * * *
+### 08/13/2020
+* * *
+
+### project build/
+*  Bump Security String to 2020-08-05
+
+### project frameworks/av/
+*  Fix potential use-after-free issue
+*  m4v_h263: Return error for zero width and height
+
+### project frameworks/base/
+*  DO NOT MERGE Prevent ImageWallpaper from keeping crashing
+*  More fixes towards the race conditions in AMS
+*  DO NOT MERGE - Kill apps outright for API contract violations
+
+* * *
 ### 20200729
 * * *
 
