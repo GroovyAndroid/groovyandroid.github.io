@@ -5,6 +5,78 @@ layout: default
 # Changelog
 
 * * *
+### 11/24/2020
+* * *
+
+### project build/
+*  Bump Security String to 2020-10-05
+
+### project frameworks/base/
+*  Add missing isShellUser check
+
+### project packages/apps/Settings/
+*  Enable the filterTouchesWhenObscured in Special app access
+
+### project system/core/
+*  libutils: check vsnprintf error
+*  String16::remove - avoid overflow
+
+### project bionic/
+*  Update Android to tzdb 2020d [N-MR2 branch]
+
+### project external/icu/
+*  Update Android to tzdb 2020d [N-MR2 branch]
+*  Update Android to tzdb 2020c [N-MR2 branch]
+*  Update Android to tzdb 2020b [N-MR2 branch]
+*  tzcode: Import fixes from ICU trunk
+
+### project build/
+*  Bump Security String to 2020-09-05
+
+### project frameworks/base/
+*  DO NOT MERGE - Only autoVerify at install for new hosts
+*  Revert "Revoke 'always' web handler status when not autoverifying"
+*  DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package
+
+### project packages/apps/Settings/
+*  Prevent overlay drawing on top of Bluetooth discovery request dialog
+*  Prevent overlay drawing on top of Bluetooth pairing dialog
+
+### project packages/services/Telephony/
+*  Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent
+
+### project bionic/
+*  Update Android to tzdb 2020c [N-MR2 branch]
+
+### project packages/apps/Email/
+*  Email: Declare GET_WIDGET_UPDATE permission
+
+### project bionic/
+*  Update Android to tzdb 2020b [N-MR2 branch]
+
+### project packages/apps/Bluetooth/
+*  SAP: Ensure pending intent is immutable
+
+### project packages/apps/Nfc/
+*  Protect Bluetooth device information when using NFC pairing
+
+### project system/bt/
+*  Fix possible OOB when receive gatt read type response data
+
+### project system/bt/
+*  DO NOT MERGE: Remove pairing on incoming bond request
+*  Enable bitpool sanity checks
+
+### project frameworks/opt/telephony/
+*  Use FLAG_IMMUTABLE for CarrierServiceStateTracker
+*  Use FLAG_IMMUTABLE for ServiceStateTracker
+*  Use FLAG_IMMUTABLE for InboundSmsHandler
+*  Added FLAG_IMMUTABLE flag for security purposes
+
+### project external/sonivox/
+*  Check data consistency in mdls parsing
+
+* * *
 ### 08/13/2020
 * * *
 
