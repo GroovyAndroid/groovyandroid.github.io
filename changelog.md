@@ -5,7 +5,93 @@ layout: default
 # Changelog
 
 * * *
-### 11/24/2020
+### Build 02/23/2021
+* * *
+
+### project android/
+*  Track chromium-webview on master branch
+
+### project build/
+*  Bump Security String to 2021-02-05
+*  Bump Security String to 2021-01-05
+*  Bump Security String to 2020-12-05
+*  Bump Security String to 2020-11-05
+
+### project frameworks/av/
+*  Fix potential overflow in WAV extractor
+
+### project frameworks/base/
+*  Revoke the uri permission when the file is deleted
+*  Restrict app transition maximum duration
+*  RESTRICT AUTOMERGE Ensure caller identity is restored in CP quick-path.
+*  Remove updateIntentVerificationStatusAsUser from ResolverActivity
+*  Protect GrantCredentialsPermissionActivity against overlay.
+*  Make GlobalScreenshot PendingIntents immutable Mutable pending intents are a security risk. This change adds the IMMUTABLE flag to all PendingIntents created in GlobalScreenshot.
+*  Ignore GrantCredentials call with unexpected calling uid.
+*  Check that Account Parcel has name and type.
+*  DO NOT MERGE Check fingerprint client against top activity in auth callback
+*  Make WallpaperMS bind wallpaper component PendingIntent immutable.
+*  Accept repeated locale as an input of LocaleList construction.
+*  Sanitize more of the notification text fields
+
+### project packages/apps/PackageInstaller/
+*  DO NOT MERGE: Hide overlays over uninstall confirm dialog
+*  RESTRICT AUTOMERGE Don't allow tapjacking permissioncontroller
+
+### project packages/apps/Settings/
+*  Add bluetooth package to permission request intent
+*  Prevent overlay drawing on top of Bluetooth activity dialog
+
+### project packages/services/Telecomm/
+*  Fix security vulnerability of TelecomManager#getPhoneAccountsForPackage
+
+### project system/core/
+*  FileMap::create: remove duplicate addition.
+*  Fail explicitly on length overflow.
+
+### project external/chromium-webview/
+*  Chomium Webview repository administrative note
+
+### project external/okhttp/
+*  Reject non-ASCII hostnames and SANs, Ignore DNS names in certificate CN.
+
+### project libcore/
+*  Track behavior change in default HostnameVerifier.
+
+### project packages/apps/Bluetooth/
+*  Check permission before sending batch scan result
+
+### project external/libavc/
+*  decoder: Update check for first mb in slice
+
+### project external/wpa_supplicant_8/
+*  P2P: Fix copying of secondary device types for P2P group client
+
+### project external/gptfdisk/
+*  RESTRICT AUTOMERGE ANDROID: Fix negative stack write in sgdisk
+
+### project external/libexif/
+*  fixes some (not all) buffer overreads during decoding pentax makernote entries.
+
+### project frameworks/minikin/
+*  Break layout context before and after bidi control character
+
+### project system/bt/
+*  Fix potential OOB write in libbluetooth
+*  ACL: Drop broadcasts
+
+### project system/bt/
+*  Fix a security issue in sdp_server.cc
+*  Check Classic key before cross-key derivation
+
+### project external/aac/
+*  Fix heap buffer overflow in sbrDecoder_AssignQmfChannels2SbrChannels().
+
+### project system/media/
+*  spdif: fix possible buffer overflow
+
+* * *
+### Build 11/24/2020
 * * *
 
 ### project build/
@@ -77,7 +163,7 @@ layout: default
 *  Check data consistency in mdls parsing
 
 * * *
-### 08/13/2020
+### Build 08/13/2020
 * * *
 
 ### project build/
@@ -93,7 +179,7 @@ layout: default
 *  DO NOT MERGE - Kill apps outright for API contract violations
 
 * * *
-### 20200729
+### Build 20200729
 * * *
 
 #### project build/
@@ -112,7 +198,7 @@ layout: default
 *  [RESTRICT AUTOMERGE] Cherry-pick "Refactor Regexp.prototype"
 
 * * *
-### 20200610
+### Build 20200610
 * * *
 
 #### project build/
@@ -122,7 +208,7 @@ layout: default
 *  Verify all possible hosts that match web nav
 
 * * *
-### 20200606
+### Build 20200606
 * * *
 
 #### android/
@@ -143,7 +229,7 @@ layout: default
 *  RESTRICT AUTOMERGE Allow LockScreenPattern to be launched in the pinning screen
 
 * * *
-### 20200502
+### Build 20200502
 * * *
 
 #### project build/
@@ -201,7 +287,7 @@ layout: default
 *  GAP: Correct the continuous pkt length in l2cap
 
 * * *
-### 20200203
+### Build 20200203
 * * *
 
 #### project build/
@@ -299,7 +385,7 @@ layout: default
 *  selinux: add selinux_status_getenforce to header
 
 * * *
-### 20191115
+### Build 20191115
 * * *
 
 #### project android/
@@ -362,7 +448,7 @@ layout: default
 *  DO NOT MERGE Store BLE keys using the address from the ble_auth_cmpl_evt
 
 * * *
-### 20191025
+### Build 20191025
 * * *
 
 #### project build/
