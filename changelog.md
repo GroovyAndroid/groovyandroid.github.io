@@ -5,6 +5,39 @@ layout: default
 # Changelog
 
 * * *
+### Build 03/10/2021
+* * *
+
+### project build/
+*  Bump Security String to 2021-03-05
+
+### project art/
+*  Add SafetyNet logging to JNI::NewStringUTF.
+*  Validate input of JNI::NewStringUTF().
+
+### project frameworks/base/
+*  Protect account chooser activities against overlay.
+
+### project frameworks/native/
+*  libbinder: readString*Inplace SafetyNet (II)
+*  libbinder: check null bytes in readString*Inplace
+
+### project external/icu/
+*  Update Android TZDB from 2020f to 2021a. [N-MR2]
+*  Update Android TZDB from 2020d to 2020f. [N-MR2]
+*  DO NOT MERGE Cherry-pick ICU-21448: Update Android ICU tzdata from 2020d to 2020f. [N-MR2]
+
+### project external/dnsmasq/
+*  backport: dnsmasq: fix heap overflow
+
+### project external/v8/
+*  LiteralBuffer::ExpandBuffer always grows
+*  [parser] Fix off-by-one in parameter count check
+
+### project system/bt/
+*  SDP: Only start discovery once
+
+* * *
 ### Build 02/23/2021
 * * *
 
