@@ -5,6 +5,39 @@ layout: default
 # Changelog
 
 * * *
+### Build 10/29/2021
+* * *
+
+### project android/
+*  manifest: Track our own android_frameworks_opt_net_voip
+
+### project build/
+*  Bump Security String to 2021-06-05
+*  Bump Security String to 2021-05-05
+*  Bump Security String to 2021-04-05
+
+### project frameworks/base/
+*  Remove unused intent in NiNotification
+*  Increase maximum allowed size for status bar icons
+*  Limit maximum allowed size for a status bar icon
+*  DO NOT MERGE: Do not inject mock location to chipset
+*  Close screenshot process on user switched
+*  DO NOT MERGE: WM: Only allow system to use NO_INPUT_CHANNEL.
+
+### project packages/apps/Settings/
+*  RESTRICT AUTOMERGE Fix unable to send file via OPP
+*  RESTRICT AUTOMERGE Fix bluetooth settings will broadcast to anywhere when some cases
+*  Prevent drawing on top of DevicePickerActivity
+*  Prevent HTML Injection on the Device Admin request screen
+*  Hide non-system overlay window on ActivityPicker
+*  Prevent using invalid result uri during multi user image change
+*  RESTRICT AUTOMERGE Update String
+*  RESTRICT AUTOMERGE Fix phishing attacks over Bluetooth due to unclear warning message
+
+### project packages/services/Telephony/
+*  Add intent-filter priority for CONFIGURE_VOICEMAIL intent.
+
+* * *
 ### Build 03/10/2021
 * * *
 

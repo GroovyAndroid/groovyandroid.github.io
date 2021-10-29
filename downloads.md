@@ -14,9 +14,9 @@ layout: default
 
 | File                                            | Size          |
 |:------------------------------------------------|:------------------|
+| [GA-N-v7.1.2-20211029-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20211029-Z00A-Release.zip/download)           | 478.1 MB |
 | [GA-N-v7.1.2-20210310-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20210310-Z00A-Release.zip/download)           | 468.9 MB |
 | [GA-N-v7.1.2-20210223-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20210223-Z00A-Release.zip/download)           | 468.9 MB |
-| [GA-N-v7.1.2-20201124-Z00A-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00A/GA-N-v7.1.2-20201124-Z00A-Release.zip/download)           | 488.2 MB |
 
 * * *
 
@@ -24,9 +24,9 @@ layout: default
 
 | File                                            | Size          |
 |:------------------------------------------------|:------------------|
+| [GA-N-v7.1.2-20211029-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20211029-Z00D-Release.zip/download)           | 458.4 MB |
 | [GA-N-v7.1.2-20210310-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20210310-Z00D-Release.zip/download)           | 449.2 MB |
 | [GA-N-v7.1.2-20210223-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20210223-Z00D-Release.zip/download)           | 449.2 MB |
-| [GA-N-v7.1.2-20201124-Z00D-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00D/GA-N-v7.1.2-20201124-Z00D-Release.zip/download)           | 467.6 MB |
 
 * * *
 
@@ -34,9 +34,9 @@ layout: default
 
 | File                                            | Size          |
 |:------------------------------------------------|:------------------|
+| [GA-N-v7.1.2-20211029-Z00L-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00L/GA-N-v7.1.2-20211029-Z00L-Release.zip/download)           | 641.2 MB |
 | [GA-N-v7.1.2-20210310-Z00L-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00L/GA-N-v7.1.2-20210310-Z00L-Release.zip/download)           | 632.0 MB |
 | [GA-N-v7.1.2-20210223-Z00L-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00L/GA-N-v7.1.2-20210223-Z00L-Release.zip/download)           | 632.0 MB |
-| [GA-N-v7.1.2-20201124-Z00L-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00L/GA-N-v7.1.2-20201124-Z00L-Release.zip/download)           | 656.0 MB |
 
 * * *
 
@@ -44,9 +44,9 @@ layout: default
 
 | File                                            | Size          |
 |:------------------------------------------------|:------------------|
+| [GA-N-v7.1.2-20211029-Z00T-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00T/GA-N-v7.1.2-20211029-Z00T-Release.zip/download)           | 647.6 MB |
 | [GA-N-v7.1.2-20210310-Z00T-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00T/GA-N-v7.1.2-20210310-Z00T-Release.zip/download)           | 638.4 MB |
 | [GA-N-v7.1.2-20210223-Z00T-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00T/GA-N-v7.1.2-20210223-Z00T-Release.zip/download)           | 638.4 MB |
-| [GA-N-v7.1.2-20201124-Z00T-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z00T/GA-N-v7.1.2-20201124-Z00T-Release.zip/download)           | 662.7 MB |
 
 * * *
 
@@ -54,9 +54,9 @@ layout: default
 
 | File                                            | Size          |
 |:------------------------------------------------|:------------------|
+| [GA-N-v7.1.2-20211029-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20211029-Z008-Release.zip/download)           | 469.3 MB |
 | [GA-N-v7.1.2-20210310-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20210310-Z008-Release.zip/download)           | 460.1 MB |
 | [GA-N-v7.1.2-20210223-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20210223-Z008-Release.zip/download)           | 460.1 MB |
-| [GA-N-v7.1.2-20201124-Z008-Release.zip](https://sourceforge.net/projects/groovyandroid/files/Z008/GA-N-v7.1.2-20201124-Z008-Release.zip/download)           | 479.1 MB |
 
 * * *
 
